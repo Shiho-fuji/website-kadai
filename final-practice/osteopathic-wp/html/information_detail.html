@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>整体院</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Merriweather+Sans&family=Noto+Sans+JP:wght@700&family=Shippori+Mincho&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Merriweather+Sans&family=Shippori+Mincho&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Shippori+Mincho&display=swap" rel="stylesheet">  
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- reset.css ress -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="header">
+    <div class="header-area">
+      <a href="index.html">
+        <img src="img/logo.png" id="logo" alt="SAMURAI整体院">
+      </a>
+      <div id="nav-wrapper" class="nav-wrapper">
+        <div class="hamburger" id="js-hamburger">
+          <span class="hamburger__line hamburger__line--1"></span>
+          <span class="hamburger__line hamburger__line--2"></span>
+          <span class="hamburger__line hamburger__line--3"></span>
+        </div>
+        <nav class="sp-nav">
+          <ul>
+            <li><a id="logo" href="index.html"><img src="img/logo.png" alt="トップページに戻る"></a></li>
+            <li><p class="text-menu">メニュー</p></li>
+            <li><a href="index.html" class="hamburger-link">ホーム</a></li>
+            <li><a href="about.html" class="hamburger-link">当院について</a></li>
+            <li><a href="price.html" class="hamburger-link">コース・料金</a></li>
+            <li><a href="information.html" class="hamburger-link">お知らせ</a></li>
+            <li><a href="voice.html" class="hamburger-link">お客様の声</a></li>
+            <li><a href="contact.html" class="hamburger-inquiry-link">ご予約・お問い合わせ</a></li>
+          </ul>
+        </nav>
+        <div class="black-bg" id="js-black-bg"></div>
+      </div>
+    </div>
+    <nav class="header-nav">
+      <ul class="nav-list">
+        <li><a href="index.html" class="nav-link">ホーム</a></li>
+        <li><a href="about.html" class="nav-link">当院について</a></li>
+        <li><a href="price.html" class="nav-link">コース・料金</a></li>
+        <li><a href="information.html" class="nav-link">お知らせ</a></li>
+        <li><a href="voice.html" class="nav-link">お客様の声</a></li>
+        <li><a href="contact.html" class="inquiry-link">ご予約・お問い合わせ</a></li>
+      </ul>
+    </nav>
+
+
+    <!-- スマホ用メニューボタン -->
+    <!--<img id="menu-sp" src="img/SP_Menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+    スマホ用メニューボタン
+    <nav id="nav-sp">
+      <img id="close" src="img/ic_filter.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+      <a id="logo" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="img/logo.png" alt="トップページに戻る"></a>
+      <p class="text-menu">メニュー</p>
+      <a class="menu" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">ホーム</a>
+      <a class="menu" href="about.html" onclick="document.getElementById('nav-sp').style.display = 'none'">当院について</a>
+      <a class="menu" href="" onclick="document.getElementById('nav-sp').style.display = 'none'">コース・料金</a>
+      <a class="menu" href="information.html" onclick="document.getElementById('nav-sp').style.display = 'none'">お知らせ</a>
+      <a class="menu" href="" onclick="document.getElementById('nav-sp').style.display = 'none'">お客様の声</a>
+      <a class="menu menu-reserve" href="contact.html" onclick="document.getElementById('nav-sp').style.display = 'none'">ご予約・お問い合わせ</a>
+    </nav>-->
+  </header>
+  <main>
+    <div class="information-top-mv">
+      <div class="information-top-text">
+        <h1 class="information-mv-text information-mv-back">Information</h1>
+        <p class="information-mv-text1">お知らせ</p>
+      </div>
+      <div class="information-mv-img-parent">
+        <picture>
+          <source media="(max-width: 767px)" srcset="img/information-mv-sp.png">
+          <source media="(min-width: 768px)" srcset="img/information-mv-pc.png">
+          <img decoding="async" srcset="img/information-mv-pc.png" alt="informationメインビジュアル" loading="lazy" class="information-mv-img">
+        </picture>
+      </div>
+    </div>
+    
+
+    <section id="information-detail">
+      <div class="information-detail-gp">
+        <div class="information-text-gp">
+          <h2 class="information-detail-title">投稿記事タイトル</h2>
+          <div class="information-date-and-time">
+            <p class="information-date">2023年2月1日</p>
+            <p class="information-day">営業日時</p>
+          </div>
+        </div>
+        <div class="detail-img">
+          <img src="img/oshirase01.png" alt="お知らせの投稿記事画像" class="information-detail-img">
+        </div>
+        <div class="detail-text-parent">
+          <h2 class="detail-text-title">H2見出し</h2>
+          <p class="detail-text-child">
+            首都圏での新型コロナウイルス感染者増加における対応のため金曜日午後は訪問診療のみ行っております。
+            <br>また、スタッフの人数を最低限に減らし診療しております。
+            <br>患者様にはご迷惑をおかけ致しますが、ご理解ご協力をよろしくお願いいたします。
+            <br>
+            <br>首都圏での新型コロナウイルス感染者増加における対応のため,診療時間を一部変更いたします。
+            <br>患者様にはご迷惑をおかけ致しますが、ご理解ご協力をよろしくお願いいたします。
+          </p>
+          <h3 class="detail-text-title">H3見出し</h3>
+          <p class="detail-text-child">
+            首都圏での新型コロナウイルス感染者増加における対応のため金曜日午後は訪問診療のみ行っております。
+            <br>また、スタッフの人数を最低限に減らし診療しております。
+            <br>患者様にはご迷惑をおかけ致しますが、ご理解ご協力をよろしくお願いいたします。
+            <br>
+            <br>首都圏での新型コロナウイルス感染者増加における対応のため,診療時間を一部変更いたします。
+            <br>患者様にはご迷惑をおかけ致しますが、ご理解ご協力をよろしくお願いいたします。
+          </p>
+          <h4 class="detail-text-title">H4見出し</h4>
+          <p class="detail-text-child">
+            首都圏での新型コロナウイルス感染者増加における対応のため金曜日午後は訪問診療のみ行っております。
+            <br>また、スタッフの人数を最低限に減らし診療しております。
+            <br>患者様にはご迷惑をおかけ致しますが、ご理解ご協力をよろしくお願いいたします。
+            <br>
+            <br>首都圏での新型コロナウイルス感染者増加における対応のため,診療時間を一部変更いたします。
+            <br>患者様にはご迷惑をおかけ致しますが、ご理解ご協力をよろしくお願いいたします。
+          </p>
+        </div>
+      </div>
+      <div class="information-category">
+        <p class="category">カテゴリ</p>
+        <ul class="category-list">
+          <li class="category-list1">営業日時</li>
+          <li class="category-list1">キャンペーン</li>
+          <li class="category-list1">その他</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+
+
+
+  <footer id="footer">
+    <div class="footer">
+      <h2 class="footer-title">
+        <img src="img/left-diagonal.png" alt="左側の斜線" class="diagonal">
+        お気軽にご来院ください
+        <img src="img/right-diagonal.png" alt="右側の斜線" class="diagonal">
+      </h2>
+        <div class="footer-gp">
+          <div class="footer-left">
+            <p class="footer-walk">JR「秋葉原駅」より徒歩1分</p>
+            <P class="footer-address">
+              〒101-0022
+              <br>東京都千代田区神田練堀町300番地
+              <br>住友不動産秋葉原駅前ビル 5F
+            </P>
+            <p class="footer-tel"><span class="footer-tel-text">tel:</span>03-1234-5678</p>
+            <table border="1" style="border: 1px solid #dddddd; border-collapse: collapse;" class="footer-table">
+              <tr>
+                <th class="footer-date">営業時間</th>
+                <th class="footer-date">月</th>
+                <th class="footer-date">火</th>
+                <th class="footer-date">水</th>
+                <th class="footer-date">木</th>
+                <th class="footer-date">金</th>
+                <th class="footer-date">土</th>
+                <th class="footer-date">日</th>
+              </tr>
+              <tr>
+                <th class="footer-time">9:00~12:30</th>
+                <th class="footer-time">●</th>
+                <th class="footer-time">●</th>
+                <th class="footer-time">-</th>
+                <th class="footer-time">●</th>
+                <th class="footer-time">●</th>
+                <th class="footer-time">●</th>
+                <th class="footer-time">●</th>
+              </tr>
+              <tr>
+                <th class="footer-time">15:30~20:00</th>
+                <th class="footer-time">●</th>
+                <th class="footer-time">●</th>
+                <th class="footer-time">-</th>
+                <th class="footer-time">●</th>
+                <th class="footer-time">●</th>
+                <th class="footer-time">●</th>
+                <th class="footer-time">●</th>
+              </tr>
+            </table>
+            <a href="contact.html" class="footer-link">ご予約・お問い合わせはこちらから</a>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6480.1377242930685!2d139.774653!3d35.699923!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188fee13660e23%3A0x77137876edf742ac!2z5L2P5Y-L5LiN5YuV55Sj56eL6JGJ5Y6f6aeF5YmN44OT44Or!5e0!3m2!1sja!2sjp!4v1700143608833!5m2!1sja!2sjp" width="450" height="450" class="google-map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="footer-header">
+          <div class="footer-logo">
+            <a href="index.html">
+              <img src="img/logo.png" class="logo" alt="SAMURAI整体院">
+            </a>
+          </div>
+          <nav class="footer-nav">
+            <ul class="nav-list">
+              <li><a href="index.html" class="footer-nav-link">TOP</a></li>
+              <li><a href="about.html" class="footer-nav-link">当院について</a></li>
+              <li><a href="price.html" class="footer-nav-link">コース・料金</a></li>
+              <li><a href="information.html" class="footer-nav-link">お知らせ</a></li>
+              <li><a href="voice.html" class="footer-nav-link">お客様の声</a></li>
+              <li><a href="contact.html" class="footer-nav-link">ご予約・お問い合わせ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div id="page_top"><a href="#"></a></div>
+    <span id="copyright">&copy;2023 SAMURAI整体院</span>
+  </footer>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
